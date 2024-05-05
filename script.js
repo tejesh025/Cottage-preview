@@ -1,7 +1,7 @@
 let index = 0;
 function shiftright(){  
     let image = document.querySelector('#mainimage');
-    let imagePaths = ["/pics/insta/sunny.jpg", "/pics/insta/dawg.jpg", "/pics/insta/food1.jpg", "/pics/insta/winter.jpg"];
+    let imagePaths = ["sunny.jpg", "dawg.jpg", "food1.jpg", "winter.jpg"];
     index++;  
    
     if(index >= imagePaths.length)
@@ -14,7 +14,7 @@ function shiftright(){
 }
 function shiftleft(){  
     let image = document.querySelector('#mainimage');
-    let imagePaths = ["/pics/insta/sunny.jpg", "/pics/insta/dawg.jpg", "/pics/insta/food1.jpg", "/pics/insta/winter.jpg"];
+    let imagePaths = ["sunny.jpg", "dawg.jpg", "food1.jpg", "winter.jpg"];
     index--; 
     if(index < 0)
        {
