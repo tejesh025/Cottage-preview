@@ -11,7 +11,7 @@ body{
     position: relative;
     height: 100vh;
     width:100%;
-    background-image: url(/pics/insta/huh.jpg);
+    background-image: url(huh.jpg);
     /* background-color: black; */
     background-position: 70% 40%;
     
