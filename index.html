@@ -6,31 +6,34 @@
     <title>Parvati woods Cottage 97</title>
     <link rel="stylesheet" href="styles.css">
     <script src="https://kit.fontawesome.com/7c688c45f4.js" crossorigin="anonymous"></script>
+    
 </head>
 <body>
-    <section class="section1">
+    <section class="section1" id="Home">
         <div class="header">
             <div>
                 <p class="big">
-                    Parvati woods Cottage 97
+                       Parvati woods Cottage 97
                 </p>
                 <p style="text-align: center;">
-                    The best cottage with extreme features and great hospitality.ho
+                    The best cottage with extreme features and great hospitality.
                 </p>
             </div>
         </div>
         <div class="knowmore">
-            <button>Know more</button>
+            <button>
+                <a href="#knowmore">Know more</a>
+            </button>
         </div>
     </section>
     <div class="nav">
-        <a href="">Home</a>
-        <a href="">About us</a>
-        <a href="">Cottage</a>
-        <a href="">Location</a>
+        <a href="#Home">Home</a>
+        <a href="#cottage">Cottage</a>
+        <a href="#location">Location</a>
+        <a href="#booking">Booking</a>
         <a href="">Contacts</a>
     </div>
-    <section class="section2">
+    <section class="section2" id="knowmore">
         <div id="welcome">
             <p id="wel-big">
                 Welcome
@@ -47,7 +50,7 @@
         </div>
     </section>
     <div class="section3">
-        <div id="showcasehead">
+        <div id="cottage">
             <P> 
                 OUR COTTAGE 
             </P>
@@ -56,7 +59,7 @@
 
         <div class="imgcon">
             <div class="img">
-                <img  src="sunny.jpg" id="mainimage">
+                <img  src="/pics/insta/sunny.jpg" id="mainimage">
                 <div class="imgcontrols">
                     <i onclick="shiftleft()" class="fa-solid fa-chevron-left"></i>    
                     <i onclick="shiftright()" class="fa-solid fa-chevron-right"></i>
@@ -73,6 +76,97 @@
             </div>
         </div>
     </div>
+    <section class="section4" id="location">
+        <p>
+           Our Location
+        </p>
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4843.141036144778!2d77.28904951539823!3d32.00622866503708!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39045ea0291f8ab7%3A0xadc02872e54f6949!2sClosed!5e0!3m2!1sen!2sin!4v1715001646198!5m2!1sen!2sin"style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <p> shows closed? <a href="#physicallocation">address</a> contact us , maybe an error!!</p>
+
+        </div>
+    </section>
+    
+    <section class="section5">
+        <div class="featureshead">
+            <P>Features</P>
+        </div>
+        <div class="features">
+            <div id="property">
+                <ul> PROPERTY AMENITES
+                <li> free parking </li>
+                <li> restaurant</li>
+                <li>  hiking</li>
+                <li>  evening entertainment</li>
+                <li> airport transporting</li>
+                <li> 24-hour security</li>
+                <li> baggage storage</li>
+                <li> 24-hour check-in</li>
+                <li> car hire</li>
+                <li> 24 hour front desk</li>
+                <li> laurndry service</li>
+                </ul>
+            </div>
+            <div class="room">
+                <ul>Room features
+                    <li>fireplace</li>
+                    <li>house keeping</li>
+                    <li>room service</li>
+                    <li>bath/shower</li>
+                    <li>complimentary toileteries</li>
+                </ul>  
+            </div>
+            <div class="additional">
+                    <ul>Room types
+                        <li>family rooms</li>  
+                     </ul>  
+
+                    <ul> hotel style
+                        <li>family</li>  
+                    </ul>
+                    <ul> languages spoken 
+                        <li> english hindi</li>  
+                    </ul>
+
+            </div>
+        </div>
+    </section>
+    <section class="section6">
+        <div class="customershead">
+            <P> Our Customers </P>
+        </div>
+
+        <div class="customerimgmain">
+            <div class="contentcustomer">
+                <p>
+                    Curious about the experiences awaiting you at Parvati Woods Cottage? Dive into the stories of our cherished guests, who've found solace and joy amidst the tranquility of our retreat.
+
+                    From laughter-filled evenings under starlit skies to mornings greeted by the soothing melodies of nature, each moment at our cottage is a testament to the beauty of life's simple pleasures."
+                </p>
+                
+                <P id="csmall">                   
+                    Join our community of adventurers, nature-lovers, and seekers of serenity. Let your journey unfold in the heart of nature, where every visit is an opportunity to create unforgettable memories.</P>
+            </div>
+            <div class="imgcustomer">
+                <img  src="/pics/customer/custom1.jpg" id="customerimgimg">
+                <div class="imgcontrols">
+                    <i onclick="shiftcleft()" class="fa-solid fa-chevron-left"></i>    
+                    <i onclick="shiftcright()" class="fa-solid fa-chevron-right"></i>
+                </div>
+                
+            </div>
+            
+        </div>
+        <div class="sec6help">
+            <p>
+                will be updated over time :) , any removals can just <a href="#Contact">contact us</a>
+            </p>
+        </div>
+    </section>
+    <section class=".section7">
+        
+    </section>
+
     <script src="script.js"></script>
 </body>
 </html>
